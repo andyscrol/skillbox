@@ -38,16 +38,16 @@ body {
   margin-bottom: 50px;
 }
 
-.menu {
+.links {
   margin-bottom: 50px;
 }
 
-.menu__links {
+.link {
   display: inline-block;
   padding: 24px 49px;
 }
 
-.menu__links:not(:last-child) {
+.link:not(:last-child) {
   margin-right: 25px;
 }
 
@@ -69,7 +69,7 @@ figure {
 }
 
 .title,
-.paragraph,
+.text,
 .figure,
 .image {
   margin-bottom: 40px;
@@ -79,7 +79,7 @@ figure {
   margin-bottom: 10px;
 }
 
-.paragraph,
+.text,
 .figure {
   width: 872px;
 }
@@ -94,10 +94,10 @@ figure {
   margin-bottom: 40px;
 }
 
-.highlight .paragraph {
+.highlight .text {
   width: 692px;
 }
-.highlight .paragraph:not(:last-child) {
+.highlight .text:not(:last-child) {
   margin-bottom: 10px;
 }
 
